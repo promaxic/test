@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main app theme used by AndroidManifest -->
+    <style name="Theme.PlannerTemplate" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+    <!--
+      Compatibility alias:
+      Some environments/build caches still resolve Theme.Material3.DayNight.NoActionBar from old config.
+      Define it locally so AAPT can always link resources without failing.
+    -->
+    <style name="Theme.Material3.DayNight.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+</resources>
