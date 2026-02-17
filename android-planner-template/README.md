@@ -71,6 +71,9 @@ APK после сборки:
 ---
 
 ## Частые проблемы
+- **`AAPT: resource style/Theme.Material3.DayNight.NoActionBar not found`**
+  - обновите проект до текущего состояния (в шаблоне тема уже заменена на `Theme.MaterialComponents.DayNight.NoActionBar`);
+  - сделайте `File → Sync Project with Gradle Files`.
 - **`Plugin com.android.application was not found`**
   - проверь интернет/прокси;
   - убедись, что в `settings.gradle.kts` есть `google()` и `mavenCentral()`.
